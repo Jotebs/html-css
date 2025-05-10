@@ -1,8 +1,27 @@
-body{
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'negrito';
+    src: url(fontes/PassionOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'versos';
+    src: url(fontes/Sriracha-Regular.ttf) format("truetype");
+}
+
+*{
     margin: 0px;
     padding: 0px;
-    line-height: 3em;
-    font-size: 20px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: white;
+}
+
+body{
+    font-size:  xx-large;
 }
 
 header{
@@ -11,41 +30,82 @@ header{
     text-align: center;
     color: white;
     margin: 0px;
-    padding-top: 83px;
-    padding-bottom: 83px;
-    height: 100px;
-    
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: negrito;
 }
 
-#fundo1{
+header > h1{
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+    font-size: 2vw;
+}
+
+section.normal{
+    background-color: white;
+}
+
+section{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: versos;
+    font-size: 3vw;
+}
+
+section.imagem{
+    background-color: rgb(94, 88, 88);
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+#livro{
+    background-image: url("imagens/background002.jpg");
+}
+
+#livro > p{
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.imagem{
    background-image: url("imagens/background001.jpg");
     background-position: center;
     background-attachment: fixed;
     padding: 30px;
+    background-repeat: no-repeat;
 }
 
-#fundo2{
-    background-image: url("imagens/background002.jpg") ;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 30px;
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
 }
 
-#whitetext{
-    text-align: left;
-    color: wheat;
-    
-}
-
-section{
-
-}
-
-article{
-    
-    padding: 0px;
-}
-
-p{
-
+footer > p{
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
