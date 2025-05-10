@@ -5,4 +5,4 @@
 
  Muito foda
 
-<a href="exercicios/ex001/">Executar o exercício001</a>
+<a href="exercicios/projeto_cordel/">Projeto Cordel</a>
