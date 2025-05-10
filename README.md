@@ -5,5 +5,5 @@
 
  Muito foda
 
-<a href="exercicios/desafios/site android/">Projeto Android</a>
-<a href="exercicios/projeto_cordel/">Projeto Cordel</a>
+<p><a href="exercicios/desafios/site android/">Projeto Android</a></p>
+<p><a href="exercicios/projeto_cordel/">Projeto Cordel</a></p>
