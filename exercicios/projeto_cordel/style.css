@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    line-height: 3em;
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    margin: 50px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding-top: 83px;
+    padding-bottom: 83px;
+    height: 100px;
+    
+}
+
+#fundo1{
+   background-image: url("imagens/background001.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px;
+}
+
+#fundo2{
+    background-image: url("imagens/background002.jpg") ;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 30px;
+}
+
+#whitetext{
+    text-align: left;
+    color: wheat;
+    
+}
+
+section{
+
+}
+
+article{
+    
+    padding: 0px;
+}
+
+p{
+
+}
