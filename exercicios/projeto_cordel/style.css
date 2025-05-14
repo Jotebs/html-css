@@ -20,6 +20,10 @@ html, body{
     background-color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size:  xx-large;
 }
@@ -61,8 +65,6 @@ nav > a{
     border-radius: 20px;
     padding: 2vw;
     transition-duration: 0.6s;
-    
-
 }
 
 section.normal{
@@ -119,6 +121,14 @@ a:hover{
     padding: 30px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.button{
+    color: black;
+}
+
+a#topo{
+    transition-duration: 1s;
 }
 
 footer{
