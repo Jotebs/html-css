@@ -8,7 +8,7 @@
 <body>
     <form action="cadastro.php" method="get">
             <fieldset>
-                <legend>Esporte Favorito</legend>
+                <legend>Esporte favorito</legend>
                 <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
                 <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
                 <input type="checkbox" name="esvolei" id="iesvolei"> <label for="iesvolei">Vôlei</label> <br>
@@ -19,31 +19,22 @@
                 <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label> <br>
                 <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Feminino</label> <br>
             </fieldset>
+             <fieldset>
+                <legend>Dados pessoais</legend>
+                 <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" required placeholder="Nome">
+                         </p>
+                         <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" required placeholder="Sobrenome">
+                         </p>
+                         <p>
+                             <label for="itel">Telefone celular:</label> <input type="tel" name="tel" id="itel" required number placeholder="(xx)xxxxx-xxxx" autocomplete="tel" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}">
+                         </p>
+                          <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+                         </p>
+             </fieldset> <br>
+             <input type="color" name="cor" id="icor"> <label for="icor">Escolha uma cor</label> <br>
+             <p>Escolha sua foto:</p>
+             <input type="file" name="arquivo" id="iarquivo"> <label for="iarquivo"></label> <br>
 
-
-
-
-
-
-
-             <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" required placeholder="Nome">
-        </p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" required placeholder="Sobrenome">
-        </p>
-         <p>
-            <label for="idata">Data</label> <input type="date" name="data" id="idata" required>
-        </p>
-        <p>
-            <label for="ihora">Horário</label> <input type="time" name="hora" id="ihora" required>
-        </p>
-        <p>
-            <label for="inota">Média</label> <input type="number" name="nota" id="inota" step="0.25" min="0" max="10" required placeholder="média">
-        </p>
-        <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar">
-        </p>
-        <p>
-            <label for="itel">Telefone celular:</label> <input type="tel" name="tel" id="itel" required number placeholder="(xx)xxxxx-xxxx" autocomplete="tel" pattern="\([0-9]{2}\)[0-9]{5}-[0-9]{4}">
-        </p>
     </form>
 </body>
 </html>
