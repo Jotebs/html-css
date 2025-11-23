@@ -73,7 +73,7 @@
                     <option value="PI">Piauí</option>
                 </optgroup>
              </select>
-             <br>
+             <br> <br>
              <label for="iprof">Escolha sua profissão:</label>
              <input type="text" name="prof" id="iprof" list="lstprof">
                 <datalist id="lstprof">
@@ -84,6 +84,23 @@
                     <option value="Programador">Programador</option>
                     <option value="Policial">Policial</option>
                 </datalist>
+
+<br><br>
+                <label for="in1">Número 1: </label>
+                <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+<br>
+                <label for="in2">Número 2: </label>
+                <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+
+  <br>  <br>            <label for="isoma">Soma: </label>
+                <output name="soma" id="isoma">0</output>
+
+                <br> <br>
+                <label for="inum">Número: </label>
+                <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+                <output id="ival">5</output>
+
+
 
 </body>
 </html>
