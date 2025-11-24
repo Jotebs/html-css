@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+
+article::after {
+    content: "Esta matéria foi impressa a partir do site www.exemplo.com";
+    display: block;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+menu{
+    display: none;
+}
