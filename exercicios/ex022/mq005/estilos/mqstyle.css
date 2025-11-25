@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: block !important; /*o !important serve pra carregar o nav em display block independente se carregar ou ñ o menu hamburguer  */
+    }
+
+    nav > ul{
+        display: flex;
+    }
+
+    nav > ul > li{
+        margin-right: 3px;
+        border-radius: 5px;
+
+    }
+
+    span#burger{
+        display: none;
+    }
+
+    main{
+        max-width: 70vw;
+    }
+}
