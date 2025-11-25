@@ -10,14 +10,18 @@
 <body>
     <main> 
         <section id="login">
-            <div id="imagem">
-                
-            </div>
             <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta</p>
+                <h1 id="titulo">Login</h1>
+                <p id="subtitulo">Seja bem-vindo(a) novamente. Faça login para acessar sua conta</p>
                 <form action="#" method="post">
-
+                        <label for="iemail"></label>
+                        <input type="email" name="email" id="iemail" placeholder="Insira seu e-mail" required>
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Insira sua senha" required minlength="8">
+                        <div class="botao">
+                            <input type="submit" name="submit" id="isubmit" value="Entrar">
+                            <input type="button" name="forgot" id="iforgot" value="Esqueci a senha">
+                        </div>
                 </form>
             </div>
         </section>
