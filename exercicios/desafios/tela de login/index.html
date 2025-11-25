@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <form action="#">
+            <fieldset>
+                <div class="esquerda">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
+                    <span id="user" class="material-symbols-outlined">person</span>
+                    <label for="iemail"></label>
+                    <input type="text" name="email" id="iemail" required placeholder="Digite seu email">
+                    <br>
+                    <span id="cadeado" class="material-symbols-outlined">lock</span>
+                    <label for="isenha"></label>
+                    <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha">
+                    <br>
+                    <input type="submit" name="entrar" id="ientrar" value="Entrar">
+                    <input type="button" name="recuperar" id="irecuperar" value="Esqueci minha senha">
+                    <p>Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
+                </div>
+
+                <div class="direita">
+                    <img src="imagens/cg.png" alt="Login imagem">
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
