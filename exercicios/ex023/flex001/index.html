@@ -9,18 +9,40 @@
             display: flex;
             background-color: orange;
             flex-flow: row nowrap;
-            justify-content:space-around;
             height: 300px;
-            align-items: flex-start;
         }
 
         div.item{
             background-color: aqua;
             border: 1px solid black;
-            
+            flex-basis: 75px;
             text-align: center;
-            
         }
+
+        #item1{
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        #item2{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+        #item3{
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        #item4{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+        #item5{
+            flex-grow: 3;
+            flex-shrink: 3;
+        }
+
+
+
     </style>
 </head>
 <body>
